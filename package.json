@@ -1,0 +1,27 @@
+{
+  "name": "sync-doc-editor",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^26.2.7",
+    "@syncfusion/ej2-react-documenteditor": "^26.2.7",
+    "@syncfusion/ej2-react-grids": "^26.2.7",
+    "@syncfusion/ej2-react-navigations": "^26.2.11",
+    "@syncfusion/ej2-react-pdfviewer": "^26.2.7",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.1.2",
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-react": "^4.0.0"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
