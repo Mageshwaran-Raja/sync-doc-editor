@@ -1,0 +1,105 @@
+.overall-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-color: #E6E9F2;
+    padding: 30px;
+}
+.left-container{
+    width: 27%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.right-container{
+    width: 71%;
+    background-color: #fff;
+}
+.upload-docs{
+    color: #4755b1;
+    letter-spacing: 0.2px;
+}
+.scroll-content{
+    height: 65vh;
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.tree-content{
+    height: 65vh;
+    overflow-y: auto;
+}
+.delete-btn{
+    height: 35px;
+    width: 35px;
+    background-color:  rgb(190, 184, 184);
+    border-radius: 4px 4px 4px 4px;
+}
+.inputfield{
+    width: 300px;
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 5px 0px 0px 5px;
+    height: 35px;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+.rightarrow-key{
+    padding: 8px;
+    color: #fff;
+    font-size: 20px;
+}
+.copy-icon{
+    padding: 8px;
+}
+.copy-clipboard{
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 4px 4px 4px 4px;
+    background-color: #E6E9F2;
+}
+.search-btn{
+    height: 35px;
+    width: 35px;
+    background-color: #0184F7;
+    border-radius: 0px 5px 5px 0px;
+}
+.filter-btn{
+    border: 1px solid rgb(190, 184, 184);
+    width: 40px;
+    background-color: #F5F7F9;
+    border-radius: 5px;
+    height: 37px;
+}
+.filter-key-icon{
+    padding: 5px;
+    color: rgb(190, 184, 184);
+    font-size: 27px;
+}
+.content-filter{
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 3px;
+    width: 261px;
+    height: 500px;
+    margin-left: -222px;
+    background: #fff;
+}
+.filter-popover-content{
+    font-size: 12px;
+}
+.filter-popover-content-scroll{
+    overflow: auto;
+    height: 400px;
+}
+.display-flex{display: flex;}
+.justify-space-between{justify-content: space-between;}
+.pd-20{padding: 20px;}
+.pd-12{padding: 12px;}
+.fw500{font-weight: 500;}
+.mt-4{margin-top: 4px;}
+.mt-3{margin-top: 3px;}
+.pd_left-right4{padding: 0 4px;}
+.header-border{border-bottom:1px solid rgb(190, 184, 184)}
+.filter-popover-content-footer-border{border-top:1px solid rgb(190, 184, 184)}
+.clearall{color: #0184F7;}
+.mt-27{margin-top: -27px;}
+.ml10{margin-left: 10px;}
+.fs20{font-size: 20px;}
